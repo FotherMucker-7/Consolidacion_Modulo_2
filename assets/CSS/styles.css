@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'fuente_titulos';
+    src: url('/assets/FONTS/ethnocentric.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fuente_textos';
+    src: url('/assets/FONTS/RobotoCondensed-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicar las fuentes a los elementos deseados */
+
+/* Fuente para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'fuente_titulos', sans-serif;
+}
+
+/* Fuente para el texto general */
+body, p {
+    font-family: 'fuente_textos', sans-serif;
+}
+
+.navbar, .navbar-nav .nav-link {
+    font-family: 'fuente_textos', sans-serif;
+}
+
+.navbar-brand img {
+    margin-right: 15%;
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño a tu preferencia */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 50%;
+}
+
+.custom-margin {
+    margin-right: 5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    height: 100vh; /* Ajusta la altura a tu preferencia */
+    background: url('/assets/img/headback2.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad según tu preferencia */
+    z-index: 1;
+}
+
+.header .container {
+    position: relative;
+    z-index: 2;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
