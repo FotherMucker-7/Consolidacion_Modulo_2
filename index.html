@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Mi Portafolio | Santiago Rivera</title>
+    <link rel="icon" href="/assets/img/SRMARKETboxfavicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets\img\SRMARKETbox2.png" alt="Logo" class="logo">
-                Mi Portafolio
+                Santiago Rivera
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,67 +48,275 @@
         <div class="container">
             <h1>Bienvenido a Mi Portafolio</h1>
             <p class="lead">Desarrollador Web y Diseñador Creativo</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-4 custom-btn">Conversemos</a>
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com" class="text-white mx-2" target="_blank"><i
+                        class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com" class="text-white mx-2" target="_blank"><i
+                        class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.github.com" class="text-white mx-2" target="_blank"><i
+                        class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com" class="text-white mx-2" target="_blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+            </div>
         </div>
     </header>
 
 
     <section id="about" class="py-5">
         <div class="container">
-            <h3>Sobre Mí</h3>
-            <p>Mi nombre es Juan Pérez. Soy un desarrollador web con experiencia en la creación de aplicaciones
-                dinámicas y sitios web atractivos.</p>
+            <h2 class="text-center mb-4">Sobre Mi</h2>
+            <p>
+                ¡Hola! Soy <strong>Santiago Rivera</strong>, un apasionado desarrollador web con más de 8 años de
+                experiencia en la creación de sitios web modernos y elegantes. Mi enfoque se centra en diseñar y
+                desarrollar páginas que no solo sean visualmente atractivas, sino también altamente funcionales y
+                optimizadas para ofrecer una experiencia de usuario excepcional.
+            </p>
+            <p>
+                A lo largo de mi carrera, he tenido la oportunidad de trabajar en una amplia variedad de proyectos,
+                desde startups emergentes hasta grandes corporaciones. He liderado equipos de desarrollo y colaborado
+                con diseñadores, especialistas en marketing y otros desarrolladores para llevar a cabo proyectos que han
+                sido reconocidos por su innovación y calidad.
+            </p>
+            <p>
+                Siempre estoy buscando nuevos desafíos y oportunidades para seguir creciendo y aprendiendo en este campo
+                en constante evolución. Si buscas a alguien que pueda transformar tu visión en realidad y proporcionar
+                soluciones web de alta calidad, ¡estoy aquí para ayudarte!
+            </p>
         </div>
     </section>
 
-    <section id="skills" class="bg-light py-5">
+    <section id="skills" class="py-5">
         <div class="container">
-            <h3>Habilidades</h3>
+            <h2 class="text-center mb-4">Habilidades</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <h4>HTML & CSS</h4>
-                    <p>Experto en crear estructuras sólidas y estilos visualmente atractivos.</p>
+                <div class="col-lg-12 mb-4">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">HTML y CSS</h5>
+                                    <p class="card-text">
+                                        Con una sólida base en HTML y CSS, me especializo en crear estructuras web
+                                        robustas y diseños visualmente impactantes. Gracias a mi meticulosa atención al
+                                        detalle, soy capaz de transformar conceptos de diseño en páginas web responsivas
+                                        y accesibles, garantizando una experiencia de usuario fluida en cualquier
+                                        dispositivo. Mi dominio de las últimas técnicas y estándares web me permite
+                                        desarrollar sitios que no solo lucen bien, sino que también están optimizados
+                                        para un rendimiento superior y una carga rápida.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="/assets/img/htmlcss.png" class="card-img move-on-hover"
+                                    alt="Imagen HTML y CSS">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h4>JavaScript</h4>
-                    <p>Desarrollo de funciones interactivas y dinámicas.</p>
+                <div class="col-lg-12 mb-4">
+                    <div class="card">
+                        <div class="row no-gutters flex-row-reverse">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript</h5>
+                                    <p class="card-text">
+                                        Domino JavaScript, el lenguaje que da vida a las páginas web. Con mi habilidad
+                                        para escribir código limpio y eficiente, puedo crear interacciones dinámicas y
+                                        funcionalidades avanzadas que mejoran significativamente la experiencia del
+                                        usuario. Desde la implementación de animaciones fluidas hasta la gestión de
+                                        datos en tiempo real, utilizo JavaScript para desarrollar soluciones web que son
+                                        tan intuitivas como poderosas. Mi capacidad para resolver problemas complejos y
+                                        mi enfoque en la usabilidad aseguran que cada proyecto no solo cumpla, sino que
+                                        supere las expectativas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="/assets/img/js.png" class="card-img move-on-hover" alt="Imagen JavaScript">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h4>React & Node.js</h4>
-                    <p>Creación de aplicaciones modernas y eficientes.</p>
+                <div class="col-lg-12 mb-4">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">React & Node.js</h5>
+                                    <p class="card-text">
+                                        Soy un experto en el desarrollo full stack utilizando React y Node.js,
+                                        herramientas esenciales para construir aplicaciones web modernas y escalables.
+                                        Con React, creo interfaces de usuario interactivas y eficientes, asegurando que
+                                        cada componente funcione de manera fluida y coherente. En el backend, con
+                                        Node.js, desarrollo servidores robustos y aplicaciones rápidas que manejan
+                                        grandes volúmenes de datos con facilidad. Mi enfoque integral me permite ofrecer
+                                        soluciones completas, desde la interfaz hasta el servidor, proporcionando
+                                        aplicaciones web que son tanto innovadoras como altamente funcionales.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="/assets/img/react.png" class="card-img move-on-hover"
+                                    alt="Imagen React & Node.js">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h3>Proyectos</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Aplicación de Gestión de Tareas</h5>
-                            <p class="card-text">Una aplicación móvil diseñada para ayudar a los usuarios a gestionar
-                                sus tareas diarias de manera eficiente.</p>
-                        </div>
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center mb-4">Proyectos</h2>
+        <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill">
+                    <img src="/assets/img/tareass.png" class="card-img-top" alt="Aplicación de Gestión de Tareas">
+                    <div class="card-body">
+                        <h5 class="card-title">Aplicación de Gestión de Tareas</h5>
+                        <p class="card-text">
+                        <h6>Descripción del Proyecto</h6>
+                        <p>Desarrollé una Aplicación de Gestión de Tareas para mejorar la productividad y facilitar la
+                            organización diaria de los usuarios. La interfaz intuitiva permite añadir, editar y eliminar
+                            tareas de manera sencilla, además de asignarles detalles como títulos, descripciones, fechas
+                            de vencimiento y prioridades.</p>
+
+                        <h6>Características Principales</h6>
+                        <ul>
+                            <li><strong>Interfaz Intuitiva:</strong> Permite una fácil gestión de tareas con una
+                                interfaz limpia y amigable.</li>
+                            <li><strong>Gestión de Tareas:</strong> Los usuarios pueden crear tareas detalladas y
+                                organizarlas según su importancia y urgencia.</li>
+                            <li><strong>Categorías y Etiquetas:</strong> Facilita la agrupación y búsqueda de tareas
+                                mediante filtros.</li>
+                            <li><strong>Notificaciones y Recordatorios:</strong> Personalizables para asegurar que
+                                ninguna tarea importante sea olvidada.</li>
+                            <li><strong>Sincronización en la Nube:</strong> Acceso a las tareas desde cualquier
+                                dispositivo, en cualquier momento.</li>
+                            <li><strong>Interfaz Responsiva:</strong> Funciona de manera óptima en dispositivos móviles
+                                y de escritorio.</li>
+                        </ul>
+
+                        <h6>Tecnologías Utilizadas</h6>
+                        <p>Utilicé HTML, CSS y JavaScript para la interfaz, y React para componentes reutilizables y
+                            gestión del estado. En el backend, empleé Node.js y Express para una API robusta, y MongoDB
+                            para almacenamiento de datos.</p>
+
+                        <h6>Desafíos y Soluciones</h6>
+                        <p>Asegurar la sincronización en tiempo real fue un desafío que resolví mediante websockets con
+                            Socket.io. También implementé opciones de personalización en el sistema de notificaciones
+                            para no sobrecargar al usuario.</p>
+
+                        <h6>Conclusión</h6>
+                        <p>La Aplicación de Gestión de Tareas ha sido un proyecto emocionante que me permitió aplicar y
+                            ampliar mis habilidades en desarrollo web. Estoy orgulloso del resultado y confío en que
+                            esta herramienta puede ayudar a muchas personas a gestionar su tiempo de manera más
+                            efectiva.</p>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Sitio Web de E-commerce</h5>
-                            <p class="card-text">Una plataforma de comercio electrónico para una tienda de ropa en
-                                línea.</p>
-                        </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill">
+                    <img src="/assets/img/ecommercee.png" class="card-img-top" alt="Sitio Web de E-commerce">
+                    <div class="card-body">
+                        <h5 class="card-title">Sitio Web de E-commerce</h5>
+                        <p class="card-text">
+                        <h6>Descripción del Proyecto</h6>
+                        <p>Desarrollé un Sitio Web de E-commerce completo, enfocado en proporcionar una experiencia de
+                            compra en línea fluida y segura. Este proyecto incluye todas las funcionalidades esenciales
+                            para un comercio electrónico moderno, desde la presentación de productos hasta la gestión de
+                            pagos y el seguimiento de pedidos.</p>
+
+                        <h6>Características Principales</h6>
+                        <ul>
+                            <li><strong>Catálogo de Productos:</strong> Un catálogo bien organizado que permite a los
+                                usuarios buscar y filtrar productos según diversas categorías.</li>
+                            <li><strong>Pasarela de Pagos Segura:</strong> Integración con varias pasarelas de pago para
+                                asegurar transacciones seguras y variadas opciones de pago para los clientes.</li>
+                            <li><strong>Panel de Administración:</strong> Un panel administrativo robusto que permite la
+                                gestión de productos, pedidos y usuarios.</li>
+                            <li><strong>Reseñas y Calificaciones:</strong> Sistema de reseñas y calificaciones de
+                                productos para mejorar la confianza de los clientes.</li>
+                            <li><strong>Responsive Design:</strong> Diseño adaptable que asegura una experiencia de
+                                usuario óptima en dispositivos móviles y de escritorio.</li>
+                        </ul>
+
+                        <h6>Tecnologías Utilizadas</h6>
+                        <p>Utilicé HTML, CSS y JavaScript para la estructura y diseño del sitio. React fue utilizado
+                            para la creación de componentes dinámicos y una experiencia de usuario reactiva. Además, se
+                            integraron pasarelas de pago como Stripe y PayPal.</p>
+
+                        <h6>Desafíos y Soluciones</h6>
+                        <p>Uno de los mayores desafíos fue asegurar la seguridad en las transacciones y la protección de
+                            los datos de los usuarios. Implementé medidas de seguridad como encriptación SSL y
+                            tokenización de datos sensibles.</p>
+
+                        <h6>Conclusión</h6>
+                        <p>El desarrollo del Sitio Web de E-commerce ha sido una experiencia gratificante que me
+                            permitió consolidar mis habilidades en desarrollo web y comercio electrónico. Estoy
+                            orgulloso del resultado y confío en que esta plataforma puede proporcionar una excelente
+                            experiencia de compra en línea a sus usuarios.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card flex-fill">
+                    <img src="/assets/img/blogg.png" class="card-img-top" alt="Blog Personal con CMS">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Personal con CMS</h5>
+                        <p class="card-text">
+                        <h6>Descripción del Proyecto</h6>
+                        <p>Desarrollé un Blog Personal con un Sistema de Gestión de Contenidos (CMS) personalizado,
+                            diseñado para permitir una creación y administración de publicaciones fácil e intuitiva.
+                        </p>
+
+                        <h6>Características Principales</h6>
+                        <ul>
+                            <li><strong>Interfaz de Usuario Atractiva:</strong> Diseño moderno y limpio que facilita la
+                                navegación y la lectura de publicaciones.</li>
+                            <li><strong>Categorías y Etiquetas:</strong> Los usuarios pueden organizar sus publicaciones
+                                mediante categorías y etiquetas, facilitando la búsqueda y filtrado de contenido.</li>
+                            <li><strong>Comentarios y Moderación:</strong> Sistema de comentarios que permite la
+                                interacción entre los usuarios, con opciones de moderación para mantener la calidad del
+                                contenido.</li>
+                            <li><strong>Búsqueda de Contenido:</strong> Función de búsqueda avanzada que permite a los
+                                usuarios encontrar publicaciones específicas rápidamente.</li>
+                            <li><strong>Responsive Design:</strong> Diseño adaptable que asegura una experiencia de
+                                usuario óptima en dispositivos móviles y de escritorio.</li>
+                        </ul>
+
+                        <h6>Tecnologías Utilizadas</h6>
+                        <p>Utilicé HTML, CSS y JavaScript para la estructura y estilo del sitio. React fue empleado para
+                            la creación de componentes interactivos y la gestión del estado. También integré un editor
+                            de texto enriquecido para facilitar la creación de contenido.</p>
+
+                        <h6>Desafíos y Soluciones</h6>
+                        <p>El principal desafío fue implementar un sistema de gestión de contenido que fuera flexible y
+                            fácil de usar para los administradores del blog. Para resolver esto, diseñé una interfaz de
+                            usuario intuitiva y funcionalidades como el drag-and-drop para la carga de imágenes.</p>
+
+                        <h6>Conclusión</h6>
+                        <p>El desarrollo del Blog Personal con CMS fue una experiencia enriquecedora que me permitió
+                            explorar y aplicar diversas tecnologías y metodologías de desarrollo web. Estoy satisfecho
+                            con el resultado y confío en que esta plataforma será útil para aquellos que deseen
+                            compartir sus ideas y conectar con una audiencia más amplia.</p>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="bg-light py-5">
+
+    <section id="contact" class="py-5">
         <div class="container">
-            <h3>Contacto</h3>
+            <h2 class="text-center mb-4">Contacto</h2>
             <form id="contactForm">
                 <div class="mb-3">
                     <label for="name" class="form-label">Nombre</label>
@@ -120,11 +331,13 @@
                     <textarea class="form-control" id="message" rows="3" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
+                <div id="confirmation" style="display: none; margin-top: 10px; color: rgb(0, 255, 0);">Formulario
+                    enviado correctamente</div>
             </form>
         </div>
     </section>
 
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-white text-center py-3">
         <p>&copy; 2024 Pedro Silva. Todos los derechos reservados.</p>
     </footer>
 
