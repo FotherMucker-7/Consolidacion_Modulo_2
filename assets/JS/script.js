@@ -13,14 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault();  // Prevenir el comportamiento por defecto del formulario
+    event.preventDefault();
 
-    // Aquí puedes añadir el código para procesar y enviar los datos del formulario
-    
-    // Mostrar un mensaje de confirmación
     document.getElementById('confirmation').style.display = 'block';
 
-    // Borrar los datos del formulario
     this.reset();
 });
 

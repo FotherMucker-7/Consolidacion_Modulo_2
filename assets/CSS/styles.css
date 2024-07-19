@@ -12,9 +12,6 @@
     font-style: normal;
 }
 
-/* Aplicar las fuentes a los elementos deseados */
-
-/* Fuente para los encabezados */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'fuente_titulos', sans-serif;
 }
@@ -23,7 +20,6 @@ h1 {
     font-size: 3.75rem;
 }
 
-/* Fuente para el texto general */
 body, p {
     font-family: 'fuente_textos', sans-serif;
 }
@@ -48,8 +44,8 @@ body, p {
 }
 
 .logo {
-    width: 3.125rem; /* Ajusta el tamaño a tu preferencia */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 3.125rem; 
+    height: auto; 
     margin-left: 40%;
 }
 
@@ -59,7 +55,7 @@ body, p {
 
 .header {
     position: relative;
-    height: 90vh; /* Ajusta la altura a tu preferencia */
+    height: 90vh; 
     background: url('/assets/img/headback3.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
@@ -74,7 +70,7 @@ body, p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
 }
 
@@ -84,50 +80,61 @@ body, p {
 }
 
 .btn-primary {
-    background-color: #1518befa; /* Cambia el color de fondo del botón */
-    border-color: #000000; /* Cambia el color del borde del botón */
+    background-color: #0026ff; 
+    border-color: #000000; 
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #ffffff; /* Cambia el color de fondo del botón cuando se hace hover */
-    border-color: #000000; /* Cambia el color del borde del botón cuando se hace hover */
-    color: #0004ff;
+    background-color: #000000; 
+    border-color: #ffffff; 
+    color: #0026ff;
 }
 
 .custom-btn {
-    padding: 5px 60px; /* Aumenta el relleno interno del botón */
-    font-size: 1.5rem; /* Aumenta el tamaño del texto del botón */
-    width: auto; /* Ajusta el ancho del botón */
-    height: auto; /* Ajusta la altura del botón */
+    padding: 5px 60px; 
+    font-size: 1.5rem; 
+    width: auto; 
+    height: auto; 
 }
 
-.social-icons a {
-    color: #ffffff; /* Color de los íconos */
+/* .social-icons a {
+    color: #ffffff; 
     transition: color 0.3s ease-in-out;
 }
 
 .social-icons a:hover {
-    color: #002fff; /* Color de los íconos al hacer hover */
+    color: #002fff; 
+} */
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #000000;
 }
 
 #about {
-    margin-top: 50px; /* Espacio encima de la sección Sobre mí */
+    margin-top: 50px; 
     font-size: 1.125rem;
 }
 
 body {
-    padding-top: 77px; /* Ajusta el valor según la altura de tu navbar */
+    padding-top: 77px; 
     background-color: #1d1d1d;
-    color: white; /* Cambiar el color del texto para mayor legibilidad */
+    color: white; 
     
 }
 
 .card-img {
-    width: 50%; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    max-height: 200px; /* Ajusta esta altura según sea necesario */
-    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    width: 50%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: cover; 
          
 }
 
@@ -136,7 +143,7 @@ body {
 }
 
 .move-on-hover:hover {
-    transform: translateY(-10px); /* Ajusta este valor según el efecto que desees */
+    transform: translateY(-10px); 
 }
 
 .d-flex {
